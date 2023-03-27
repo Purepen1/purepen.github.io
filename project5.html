@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="project4.html" class="title">Previous</a>&nbsp;&nbsp; 
+				<a href="project6.html" class="title">Next</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="project5.html" class="active">Details</a></li>
+		
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">AUTOMATE CRYPTO API PULL USING PYTHON</h1>
+							<span class="image fit"><img src="images/pic05.jpg" alt="" /></span>
+							<p>Python code is making an API request to the CoinMarketCap API to fetch the latest cryptocurrency market data. The code is using the `requests` library to make the API request and fetch the response, and the 'json' library to parse the response into JSON format. Then, it is using the `pandas` library to convert the JSON response into a dataframe and do some analysis on the data.
+								The code starts by setting up the API request URL, headers, and parameters. It then creates a 'Session object with the headers, sends a GET request to the API URL with the parameters, and loads the JSON response into a dictionary with `json.loads()'.
+								
+							</p>pThe `pd.json_normalize() method is used to convert the dictionary to a dataframe, and then `pd.set_option()`` is used to set options for displaying all columns and rows of the dataframe.
+								The code defines a function `api_runner()` that does the same thing as the initial code block, but also adds the new data to the existing dataframe.
+								The code then enters a `for loop that runs the 'api_runner()` function every 60 seconds for 333 iterations. The data is then written to a CSV file and read back in as a new
+								dataframe `df72`.
+							</p>The code goes on to calculate the mean of the percent change columns for each coin, stack them into a single column, and convert the resulting series into a dataframe. It then sets a new index for this dataframe and renames one of the columns.
+								<ul class="actions">
+									<li><a href="https://github.com/Purepen1/portfolieprojects/blob/main/Automate%20API%20extraction%20and%20extra%20datas.ipynb" class="button scrolly">View code</a></li>
+								</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Olaniyi Micheal oluwatosin.</li><li>Design: <a href="http://wa.me/2348174223657">Purepen</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

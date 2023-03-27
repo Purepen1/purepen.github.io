@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="project3.html" class="title">Previous</a>&nbsp;&nbsp; 
+				<a href="project5.html" class="title">Next</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="project4.html" class="active">Details</a></li>
+				
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">AMAZON WEB SCRAPPER WITH PYTHON</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+						<p> Web scraping is the process of extracting data from websites. It can be used for a variety of purposes, such as data analysis, research, and automation. Python is a popular language for web scraping because of its simplicity and powerful libraries. In this article, we will use Python and the Beautiful Soup library to scrape data from a website.
+							Before we begin, we need to install the Beautiful Soup library. You can do this by running the following command in your terminal:  data from a website.
+							Before we begin, we need to install the Beautiful Soup library. You can do this by running the following command in your terminal:
+							`pip install beautifulsoup4`.
+							Once you have installed Beautiful Soup, we can start scraping data. First, we need to import the library:
+							`from bs4 import BeautifulSoup
+						<p>	Next, we will use the requests library to send a GET request to the website we want to scrape. We will then pass the HTML content of the response to Beautiful Soup
+							The script also includes a function called `check_price` that does the same scraping process as the main code and writes the data to the CSV file. Finally, there is a while loop that continuously calls the `check_price` function after a set time interval and saves the data to the CSV file. Additionally, there is a `send_mail`
+							function that uses the smtplib library`
+							to send an email if the price of the product falls below a certain threshold.
+							Overall, the script seems to be a good example of how web scraping can be used to extract data from websites and how it can be saved to a file for further analysis. However, it's important to note that web scraping can be against the website's terms of service, and it's essential to check the website's policy before scraping it.
+						<p>	1. The first line of code imports the pandas library, which is used for data manipulation and analysis.
+							
+						<p>	2. The second line of code creates a new variable `df` and reads in a CSV file using the 'read_csv` method from the `pandas' library. This CSV file contains data on some hypothetical sales transactions.
+							
+						<p>	3. The third line of code uses the 'head' method to display the first 5 rows of the 'df' DataFrame.
+							
+						<p>4. The fourth line of code uses the `groupby` method to group the data by the `Region` column and then uses the sum` method to calculate the total sales for each region.
+						<p>5. The fifth line of code uses the 'sort_values' method to sort the data in descending order based on the 'Sales column.
+
+						<p>	6. The sixth line of code uses the `head` method again to display the top 3 regions with the highest sales.
+							
+							The usefulness of this code is that it allows us to quickly and easily analyze sales data by region. By grouping the data by region and calculating the total sales for each region, we can identify which regions are performing well and which ones may need more attention.
+							
+						<p>Additionally, by sorting the data in descending order, we can quickly see which regions have the highest sales
+							and prioritize our efforts accordingly.
+							
+						<p>This type of analysis can be used by businesses to make data-driven decisions and improve their overall performance.
+							<ul class="actions">
+								<li><a href="https://github.com/Purepen1/portfolieprojects/blob/main/Amazon%20web%20scraper.ipynb" class="button scrolly">View code</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Olaniyi Micheal oluwatosin.</li><li>Design: <a href="http://wa.me/2348174223657">Purepen</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
